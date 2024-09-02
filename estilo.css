@@ -1,0 +1,136 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+html{
+    padding-left: 12%;
+    padding-right: 12%;
+    background-color:white;
+}
+header{
+    /*background: rgb(164, 106, 252);*/
+    background: linear-gradient(90deg, rgba(215,192,240,1) 14%, rgba(125,44,238,1) 100%, rgba(0,212,255,1) 100%);
+    font-size:small;
+    margin-top: -1.9%;
+    padding-bottom: 0%;
+
+}
+i{
+    font-size: 110%;
+    color:  black;
+    padding-left: 2%;
+}
+body{
+    border: 2px solid black;
+    border-top: -5pxs;
+    border-bottom: 15%;
+    
+}
+img{
+    border-radius: 50%;
+    width: 170px;
+    height: 245px;
+    margin-left: 75%;
+    margin-top: -21%;
+}
+h1{
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+h2{
+    padding-top: 5%;
+    padding-left: 8%;
+}
+h3{
+    
+    padding-left: 8%;
+}
+h4{
+    margin-left: 10%;
+}
+li{
+    margin-left:5%;
+    margin-right: 5%;
+}
+p{
+    margin-left: 10%;
+    margin-right: 5%;
+}
+a{
+    padding-top: 2%;
+    padding-left: 5%;
+    font-weight: bold;
+}
+aside{
+    float: left;
+    /*background-color: rgb(209, 183, 248);*/
+    background: linear-gradient(90deg, rgba(146,80,237,1) 5%, rgba(196,154,237,1) 51%, rgba(255,255,255,1) 100%);
+    width: 40%;
+    padding-bottom: 3.7%;
+    margin-top: 1%;
+
+}
+main{
+    margin-left: 40%;
+}
+.nivel-conocimiento {
+    gap: 5px; /* Espacio entre los círculos */
+}
+.nivel-conocimiento span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: lightgray; 
+    display: inline-block;
+}
+.nivel-conocimiento .activo {
+    background-color: rgb(60, 7, 93); 
+}
+.circulo-interes {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display:inline-flex;
+    align-items:center;
+    justify-content: center;
+    background: black;
+    margin: 2%;
+}
+
+.circulo-interes.lectura::before {
+    content: '📚'; 
+    font-size: 20px;
+}
+.circulo-interes.musica::before {
+    content: '🎧'; 
+    font-size: 20px;
+}
+.circulo-interes.voluntaria::before {
+    content: '🤲'; 
+    font-size: 20px;
+}
+.circulo-interes.bailar::before {
+    content: '💃'; 
+    font-size: 20px;
+}
+.circulo-interes.patinar::before {
+    content: '🛼'; 
+    font-size: 20px;
+}
+.intereses {
+    display:flex;
+    gap: 2%; 
+    justify-content: center;
+}
+.item{
+    display: flex;
+    align-items: center;
+    margin-left: 7%;
+}
+.nombre{
+    margin: 0;
+    font-size: 90%;
+    
+}
+
